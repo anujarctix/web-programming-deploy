@@ -1,5 +1,6 @@
 body{
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(43, 94, 189);
+    color: black;
   }
   
   
@@ -81,7 +82,7 @@ body{
     width:300px;
     border-radius: 10%;
     color:black;
-    
+    background-color: blue;
     border: 5px rgb(255, 255, 255);
     box-shadow: 5px 5px 5px ;
     padding: 5px;
@@ -149,17 +150,18 @@ body{
   }
   
   #card3{
-    background-image: url(file:///Users/anujkhokhar/Downloads/images.jpeg);
+   background-color:rgb(211, 52, 52);
     background-size: contain;
-    opacity: 0.1;
+    opacity: 1;
     
   }
   
   
   #card2{
+    background-color:rgb(28, 223, 142);
     background-image: url(file:///Users/anujkhokhar/Downloads/background-design-poly-vektor-abstraktsiia-oka-project-golub.jpg);
     background-size: contain;
-    opacity:0.1;
+    opacity:1;
   }
   
   #card1{
