@@ -1,0 +1,143 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.bg{
+    background: url("bg3.avif");
+}
+@font-face {
+    font-family: quicksand;
+    src: url(Quicksand-Regular.otf) ;
+  }
+  @font-face {
+    font-family: quicksandBold;
+    src: url(Quicksand-Bold.otf) ;
+  }
+  @font-face {
+    font-family: quicksandLight;
+    src: url(Quicksand-Light.otf) ;
+  }
+  main{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    background-color: black;
+  }
+
+.logo{
+    background-repeat: no-repeat;
+    width: 5%;
+}
+#hero{
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white; 
+    top: 0;
+
+}
+.main{
+    display: flex;
+    gap:1rem;
+    flex-direction: column;
+}
+button{
+    border-radius: 0.5rem;
+    border: 2px solid #4279dfff;
+    padding: 0.5rem;
+    color: white;
+    font-size: 1rem;
+    background-color: #4279dfff;
+}
+.linksContainer{
+display: flex;
+justify-content:space-around;
+align-items: end;
+gap: 2rem;
+}
+a{
+    text-decoration: none;
+    color: white;  
+}
+h3{
+    font-family: quicksand;
+    font-size: 3rem;
+    color: white;
+}
+.navbar{
+z-index: 1;
+padding: 2rem;
+font-family: quicksandBold;
+border-radius: 10px;
+position: sticky;
+right: 50%;
+display: flex;
+top:2rem;
+justify-content:space-between;
+align-items: end;
+gap: 2rem;
+background: rgba(1, 1, 1, .7);
+backdrop-filter: blur(10px);
+width: 75vw;
+transform: translateX(15%);
+}
+
+.textAndButtonContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    position: absolute;
+    top: 50%;
+    right: 10%;
+    gap:1.5rem;
+    transform: translate(20%,-100%);
+}
+.connectContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    color:white;
+    position: absolute;
+    top: 50%;
+    right: 10%;
+    gap:1.5rem;
+    transform: translate(30%,70%);
+    
+}
+.textContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 0.5rem;
+}
+h1{
+    font-size: 5rem;
+    font-family: quicksandBold;
+}
+#aboutme{
+    color: black;
+    background-color: rebeccapurple;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+h4{
+    font-size: 2rem;
+    font-family:quicksand;
+}
+.mypic{
+    border-radius: 100%;
+    width: 400px;
+    height: 400px;
+}
+.text{
+    width: 30%;
+}
+#contactme{
+    background-color: cadetblue;
+}
+#footer{
+    background-color: blueviolet;
+}
