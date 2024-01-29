@@ -43,6 +43,10 @@
     gap:1rem;
     flex-direction: column;
 }
+a:hover{
+    scale: 1.12;
+    background-color: rgb(43, 94, 189);
+}
 button{
     border-radius: 0.5rem;
     border: 2px solid #4279dfff;
@@ -50,6 +54,12 @@ button{
     color: white;
     font-size: 1rem;
     background-color: #4279dfff;
+    transition: all;
+    transition-duration:300ms ;
+}
+button:hover{
+    scale: 1.12;
+    background-color: rgb(43, 94, 189);
 }
 .linksContainer{
 display: flex;
@@ -57,9 +67,21 @@ justify-content:space-around;
 align-items: end;
 gap: 2rem;
 }
+aside{
+    float: right;
+    color: black;
+    background-color: bisque;
+    width: 50%;
+    height: 100%;
+    
+}
 a{
     text-decoration: none;
-    color: white;  
+    color: white; 
+    transition: all;
+    transition-duration: 300ms; 
+    border-radius:10px ;
+    padding: 0.2rem;
 }
 h3{
     font-family: quicksand;

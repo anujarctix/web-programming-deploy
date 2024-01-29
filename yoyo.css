@@ -1,0 +1,194 @@
+body{
+    background-color: rgb(255, 255, 255);
+  }
+  
+  
+  img{
+    border-radius:0%;
+    border-color: black;
+    height: 250px;
+    width: 250px;
+    
+    border-width: 10px;
+    border-radius: 40%;
+    
+    margin-left: 200px;
+    display:inline-block;
+  
+  }
+  
+  header a{
+    font-size: medium;
+    text-decoration: underline;
+    
+  
+  }
+  
+  
+  
+  .card h2{
+    text-decoration:black underline;
+    text-align: center;
+  }
+  
+  
+  .topcontent{
+    float: left;
+    
+    color:black;
+    margin-right: 10px;
+    height: 300px;
+    width: 900px;
+    display: inline-block;
+    text-align: justify;
+    font-size: medium;
+    margin-left: 20px;
+  
+  
+    
+  
+    
+    
+  }
+  
+  .topcontent h1{
+    color: black;
+    text-decoration: black underline;
+    font-size: x-large;
+    text-align: center ;
+  }
+  
+  .mid{
+    height: 300px;
+    width: 100%;
+    margin-top:1px;
+  
+    
+    display: flex;
+    
+    justify-content: space-evenly;
+    
+    
+    
+    
+    
+  
+    
+  }
+  
+  .card{
+    height:500px;
+    width:300px;
+    border-radius: 10%;
+    color:black;
+    
+    border: 5px rgb(255, 255, 255);
+    box-shadow: 5px 5px 5px ;
+    padding: 5px;
+    
+  
+  }
+  
+  
+  footer{
+    
+    margin-top: 20px;
+    display: inline-block;
+    margin-left: 20px;
+  }
+  
+  footer h2{
+    text-align: center;
+    color: black;
+    text-decoration: underline;
+    margin-top: 100px;;
+  
+  }
+  
+  table {
+    
+    font-size: medium;
+    
+    border: 2px solid black;
+    color: black;
+    margin-top:400px;
+    display:inline-block;
+    
+    
+  }
+  
+  
+  
+  footer{
+    width:100%;
+    text-align: center;
+  }
+  
+  
+  
+  
+  
+  #icons a{
+    display:inline-block;
+    color:black;
+    font-size: 40px;
+    height: 40px;
+    width: 40px;
+    line-height:38px;
+    border: 2px solid black;
+    border-radius: 30%;
+    text-align: center;
+     
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-right:50px;
+  
+  
+  
+  
+  }
+  
+  #card3{
+    background-image: url(file:///Users/anujkhokhar/Downloads/images.jpeg);
+    background-size: contain;
+    opacity: 0.1;
+    
+  }
+  
+  
+  #card2{
+    background-image: url(file:///Users/anujkhokhar/Downloads/background-design-poly-vektor-abstraktsiia-oka-project-golub.jpg);
+    background-size: contain;
+    opacity:0.1;
+  }
+  
+  #card1{
+  
+    
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+    
+  
+  
+  
